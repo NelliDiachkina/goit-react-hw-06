@@ -1,9 +1,9 @@
 .wrapper {
-  max-width: 380px;
   margin: 15px 0;
-  background-color: var(--background-color);
-  padding: 10px;
+  background-color: var(--color-focus);
+  padding: 1rem;
   font-weight: 500;
+  color: var(--main-color);
 }
 
 .input {
