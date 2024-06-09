@@ -46,6 +46,7 @@ button {
   font-family: inherit;
   background-color: var(--background-color);
   cursor: pointer;
+  color: var(--main-color);
   transition: border-color var(--animation), box-shadow var(--animation),
     color var(--animation);
 }
