@@ -20,8 +20,9 @@ Currently, two official plugins are available:
 
 Створи папку **`src/redux`** для зберігання файлів, пов'язаних із логікою Redux:
 
-**`store.js`** - файл створення стору **`contactsSlice.js`** - файл слайсу для
-контактів **`filtersSlice.js`** - файл слайсу для фільтрів
+- **`store.js`** - файл створення стору
+- **`contactsSlice.js`** - файл слайсу для контактів
+- **`filtersSlice.js`** - файл слайсу для фільтрів
 
 ### Початковий стан
 
@@ -29,18 +30,13 @@ Currently, two official plugins are available:
 
 ```js
 {
- contacts: {
-		items: []
-	},
- filters: {
-		name: ""
-	}
+ contacts: {items: []},
+ filters: {name: ""}
 }
-
 ```
 
-Тут ми виділимо два слайси - контакти (поле `contacts`) і фільтри (поле
-`filters`).
+Тут ми виділимо два слайси - контакти (поле **`contacts`**) і фільтри (поле
+**`filters`**).
 
 ### Слайс контактів
 
