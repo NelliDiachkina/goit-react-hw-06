@@ -30,8 +30,8 @@ Currently, two official plugins are available:
 
 ```js
 {
- contacts: {items: []},
- filters: {name: ""}
+ contacts: { items: [] },
+ filters: { name: "" }
 }
 ```
 
