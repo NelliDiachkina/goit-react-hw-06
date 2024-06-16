@@ -53,7 +53,9 @@ const ContactForm = () => {
           <Field className={css.input} name="number" id={numberFieldId} />
           <ErrorMessage className={css.error} name="number" component="span" />
         </div>
-        <button type="submit">Add contact</button>
+        <button type="submit" className={css.btn}>
+          Add contact
+        </button>
       </Form>
     </Formik>
   );

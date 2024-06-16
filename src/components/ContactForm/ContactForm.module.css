@@ -19,3 +19,8 @@
   color: var(--color-red);
   font-weight: 500;
 }
+
+.btn {
+  max-width: 125px;
+  margin: 0 auto;
+}
